@@ -2424,8 +2424,10 @@ textarea.w-input, textarea.w-select {
 }
 
 .mid_image.instagram {
-  background-image: url("../images/travel-203.jpg");
+  -webkit-text-fill-color: inherit;
+  background-image: url("../images/travel-202.jpg");
   background-position: 50% 0;
+  background-clip: border-box;
 }
 
 .skills-section {
