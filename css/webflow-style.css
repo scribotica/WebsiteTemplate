@@ -2064,6 +2064,7 @@ textarea.w-input, textarea.w-select {
   --light-slate-grey: #8491a0;
   --blue: #5221e6;
   --lime-green: #3cc74e;
+  --creamy-white: #fef9ef;
 }
 
 .w-layout-grid {
@@ -2650,7 +2651,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .text-field {
-  background-color: var(--level-1);
+  background-color: var(--black);
   color: var(--white);
   border: 0 #000;
   margin-top: 8px;
@@ -2658,6 +2659,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .text-field._100px {
+  color: var(--level-1);
   height: 100px;
   display: block;
 }

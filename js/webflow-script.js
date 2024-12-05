@@ -11972,6 +11972,7 @@
             name: form.attr("data-name") || form.attr("name") || "Untitled Form",
             pageId: form.attr("data-wf-page-id") || "",
             elementId: form.attr("data-wf-element-id") || "",
+            domain: $("html").attr("data-wf-domain") || null,
             source: loc.href,
             test: Webflow.env(),
             fields: {},
